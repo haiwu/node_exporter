@@ -5,8 +5,19 @@
 * [ENHANCEMENT]
 * [BUGFIX]
 
+## 1.3.0 / 2021-09-28
+
+* [CHANGE] Add path label to rapl collector #2146
+* [FEATURE] Add support for monitoring GPUs on Linux #1998
+* [FEATURE] Add os release collector #2094
+* [FEATURE] Add netdev.address-info collector #2105
+* [ENHANCEMENT] ethtool: Expose node_ethtool_info metric #2080
+* [ENHANCEMENT] Use include/exclude flags for ethtool filtering #2165
 * [ENHANCEMENT] Add flag to disable guest CPU metrics #2123
+* [BUGFIX] ethtool: Sanitize metric names #2093
+* [BUGFIX] Fix ethtool collector for multiple interfaces #2126
 * [BUGFIX] Fix possible panic on macOS #2133
+* [BUGFIX] Collect flag_info and bug_info only for one core #2156
 
 ## 1.2.2 / 2021-08-06
 
